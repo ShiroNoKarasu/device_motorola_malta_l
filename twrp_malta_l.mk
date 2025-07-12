@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from malta device
-$(call inherit-product, device/motorola/malta/device.mk)
+$(call inherit-product, device/motorola/malta_l/device.mk)
 
 PRODUCT_DEVICE := malta_l
 PRODUCT_NAME := lineage_malta_l
