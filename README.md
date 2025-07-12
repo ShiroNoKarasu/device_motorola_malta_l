@@ -1,4 +1,4 @@
-# Android device tree for motorola moto e(7) (malta)
+# Android device tree for Motorola Moto E7 Power (2/32 variant) (malta_l)
 
 ```
 #
