@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/malta
+DEVICE_PATH := device/motorola/malta_l
 
 # A/B
 AB_OTA_UPDATER := true
@@ -28,7 +28,7 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 TARGET_USES_64_BIT_BINDER := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := malta
+TARGET_BOOTLOADER_BOARD_NAME := malta_l
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -43,8 +43,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := malta_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/malta
+TARGET_KERNEL_CONFIG := malta_l_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/malta_l
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -94,4 +94,4 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/motorola/malta/BoardConfigVendor.mk
+include vendor/motorola/malta_l/BoardConfigVendor.mk

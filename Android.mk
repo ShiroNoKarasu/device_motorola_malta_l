@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),malta)
+ifeq ($(TARGET_DEVICE),malta_l)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
