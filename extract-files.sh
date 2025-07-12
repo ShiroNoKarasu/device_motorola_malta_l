@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=malta
+DEVICE=malta_l
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks

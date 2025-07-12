@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_malta.mk
+    $(LOCAL_DIR)/twrp_malta_l.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_malta-user \
-    lineage_malta-userdebug \
-    lineage_malta-eng
+    twrp_malta_l-user \
+    twrp_malta_l-userdebug \
+    twrp_malta_l-eng
